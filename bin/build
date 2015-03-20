@@ -1,0 +1,6 @@
+echo "About to build package"
+
+BOOT_VERSION=2.0.0-rc11
+$BUILD_DIR/boot -V
+$BUILD_DIR/boot package
+echo "Done building package"
